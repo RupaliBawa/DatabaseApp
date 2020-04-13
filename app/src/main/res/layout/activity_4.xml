@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cosmicLatte"
+    tools:context="com.example.hp.databaseapp.Activity4">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColor="@color/chestnut"
+            android:textAlignment="center"
+            android:hint="Enter old phone number"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:textColor="@color/cosmicLatte"
+            android:background="@color/cafeAuLait"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="123dp"
+            android:text="update" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText4"
+            android:layout_below="@+id/editText4"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/chestnut"
+            android:ems="10"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:hint="Enter new phone number" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
